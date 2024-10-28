@@ -1,0 +1,25 @@
+{
+  "name": "distributed-tracing-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "NEW_RELIC_LICENSE_KEY=YOUR-NEW-RELIC-LICENSE-KEY node -r newrelic ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "newrelic": "^12.5.2",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/newrelic": "^9.14.5"
+  }
+}
