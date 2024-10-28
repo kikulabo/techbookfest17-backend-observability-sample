@@ -1,4 +1,4 @@
-# TechBookFest17 Backend Observability Sample
+# TechBookFest17 Backend Observability Sample Application
 
 ## 概要
 
